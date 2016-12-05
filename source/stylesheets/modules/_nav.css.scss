@@ -1,0 +1,24 @@
+.nav {
+}
+
+.nav-portafolio {
+	position: fixed;
+	left: 20px;
+	top: 175px;
+}
+.nav-pricing {
+	position: fixed;
+	left: 20px;
+	top: 16%;
+}
+
+.nav-right {
+	a:hover {
+		text-decoration: none;
+		color: black;
+		text-shadow: 2px 2px #bbbaba;
+	}
+	position: fixed;
+	left: 20px;
+	top: 90%;
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= data.page.title || "Alecamp" %></title>  
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" >
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://use.typekit.net/wow4nut.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <%= stylesheet_link_tag "screen" %>
+    <body class="<%= page_classes %>">
+      <%= yield_content :fullpage %>
+        <div id="main" class="container">
+          <div class="logo">
+              <a href="/"><h2>Ale<em>camp</em></h2></a>
+          </div>
+          <div class="slogan">
+            <h3>I'm a visual artist based in Barcelona. I started building websites for my friends in 2014. I offer a complete service including web design and programing in all my sites.</h3>
+          </div>
+          <div class="contact">
+            <h6>alecamp@gmail.com</h6>
+            <h6>(+34)622815499</h6>
+          </div>
+<!--           <div class="nav-portafolio">
+            <a href="/portafolio"><h1>Portafolio<h1></a>
+          </div>
+          <div class="portafolio-list">
+              <a target="external" href="http://campoderelampagos.org/">campoderelampagos.org</a><br>
+              <a target="external" href="http://cynthiagutierrez.com/">cynthiagutierrez.com</a><br>
+              <a target="external" href="http://emanueltovar.com/">emanueltovar.com</a><br>
+              <a target="external" href="http://hugolugo.link/">hugolugo.link</a><br>
+              <a target="external" href="http://alejandraaviles.com/">alejandraaviles.com</a><br>
+              <a target="external" href="http://ethelcooke.com/">ethelcooke.com</a><br>
+              <a target="external" href="http://mariajosesesma.com/">mariajosesesma.com</a><br>
+              <a target="external" href="http://juancarloscoppel.com/">juancarloscoppel.com</a><br>
+              <a target="external" href="http://www.carlosivanhernandez.mx/">carlosivanhernandez.mx</a><br>
+              <a target="external" href="http://miriamsalado.com/">miriamsalado.com</a><br>
+          </div> -->
+
+          <%= yield %>
+        </div>
+      <%= javascript_include_tag  "application" %>  
+    </body>
+  </head>
+</html>

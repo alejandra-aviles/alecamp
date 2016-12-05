@@ -1,0 +1,35 @@
+.columns {
+	@include group;
+}
+
+.col {
+	float: left;
+}
+
+.col-2 {
+	width:16.66%;
+}
+
+.col-3 {
+	width: 20%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-6 {
+	width:50%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 80%;
+}
+
+.col-12 {
+	width: 100%;
+}

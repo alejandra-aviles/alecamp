@@ -1,0 +1,23 @@
+.logo {
+	display: inline-block;
+	position: fixed;
+	left: 20px;
+	top: 20px;
+
+	h2 {
+		font-weight: 100;
+		font-size: 2.6em;
+		display: inline-block;
+	}
+	a {
+		color: black;
+	}
+	a:hover {
+		color: black;
+		text-shadow:none;
+	}
+
+	em {
+	font-weight: 600;
+	}
+}
