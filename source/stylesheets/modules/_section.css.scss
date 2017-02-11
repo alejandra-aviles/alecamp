@@ -1,12 +1,17 @@
 section {
 	@include group;
-
-	padding-bottom: 100px;
+	padding-bottom: 150px;
 	max-width: 1300px;
 }
 
 .line {
-	// border: 1px solid black;
-	margin-top: 100px;
-	margin-bottom: 20px;
+	position: fixed;
+	border: 2px solid black;
+	top: 106px;
+	width: 100%;
+}
+
+.website {
+	margin-bottom: 150px;
+	// border-bottom: 4px solid black;
 }

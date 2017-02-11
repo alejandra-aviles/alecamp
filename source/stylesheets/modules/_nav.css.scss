@@ -1,24 +1,48 @@
 .nav {
-}
-
-.nav-portafolio {
 	position: fixed;
-	left: 20px;
-	top: 175px;
-}
-.nav-pricing {
-	position: fixed;
-	left: 20px;
-	top: 16%;
-}
-
-.nav-right {
-	a:hover {
-		text-decoration: none;
-		color: black;
-		text-shadow: 2px 2px #bbbaba;
+	width: 100%;
+	height: 25px;
+	a {
+		text-align: center;
+		width: 25%;
+		padding: 3px;
+		background-color: #0b0b0b;
+		color: white;
+		font-size: 1.2em;
+		letter-spacing: 2px;
+		font-weight: 600px;
 	}
-	position: fixed;
-	left: 20px;
-	top: 90%;
+	.alecamp {
+		position: fixed;
+		left: 0;
+		top: 0;
+		a:hover {
+		background-color: black;
+		}
+	}
+	.portafolio {
+		position: fixed;
+		left: 25%;
+		top: 0;
+		a:hover {
+			background-color: #ff5252;
+		}
+	}
+	.pricing {
+		a:hover {
+			background-color: red;
+		}
+		position: fixed;
+		left: 50%;
+		top: 0;
+	}
+	.contact {
+		a:hover {
+			background-color: magenta;
+		}
+		position: fixed;
+		right: 0;
+		top: 0;
+
+	}
 }
