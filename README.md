@@ -1,3 +1,3 @@
 # Deploy
 
-$ bundle exec middleman deploy# emanuel-tovar
+$ bundle exec middleman deploy# alecamp

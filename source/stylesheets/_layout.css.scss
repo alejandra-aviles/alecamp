@@ -8,26 +8,25 @@ html {
 
 body {
 	font-size: 16px;
-	// font-family: "arial";
-	font-family: "arial";
+
+	font-family: arial;
+
 	::selection { background-color: #ffeb59; color:red; }
 	img {
 		width: 100%;
-		margin-bottom: 150px;
+		margin-bottom: 160px;
+		max-width: 924px;
 	}
 }
 
 #main { 
 	width: 100%;
-	max-width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .container {
 	@include group;
-	padding: 180px;
-
-	margin-left: auto;
-	margin-right: auto;
 }
 
 a {
@@ -37,28 +36,32 @@ a {
 
 a:hover {
 	cursor: pointer;
+	color: blue;
 }
 
 img {
 	border-radius: 4px;
-	border: 1px solid #d6d6d6;
-	box-shadow: 3px 13px 74px -10px rgba(0,0,0,0.8);
+	border: 1px solid #e8e8e8;
+	box-shadow: 3px 13px 74px -10px rgba(0,0,0,0.2);
 }
 
 body.index {
 	#portafolio {
-		background-color: blue;
+		background-color: #F6F6F6;
+		color: black;
 	}
 }
 
 body.pricing {
 	#pricing {
-		background-color: blue;
+		background-color: #F6F6F6;
+		color: black;
 	}
 }
 
 body.contact {
 	#contact {
-		background-color: blue;
+		background-color: #F6F6F6;
+		color: black;
 	}
 }

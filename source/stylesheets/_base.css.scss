@@ -1,18 +1,13 @@
 h1 {
-	font-size: 2em;
-	letter-spacing: 0.5px;
-	font-weight: 600;
-	display: inline-block;
+	font-family: 'Vollkorn', serif;
+	font-size: 5em;
 }
 
 h2 {
-	font-size: 4em;
-	word-wrap: break-word;
+
 }
 
 h3 {
-	font-size: 3.3em;
-	padding-bottom: 30px;
 }
 
 h4 {
@@ -22,15 +17,21 @@ h5 {
 }
 
 h6 {
-	font-size: 0.9em;
+	font-size: 0.8em;
+	line-height: 20px;
 	letter-spacing: 0.2px;
 }
 
 p {
 	font-size: 1.2em;
-
+}
+@media (min-width: 800px) {
+  p {
+    font-size: 2em;
+  }
 }
 
+
 em {
-	font-style: italic;
+
 }

@@ -1,48 +1,57 @@
 .nav {
 	position: fixed;
 	width: 100%;
-	height: 25px;
-	a {
-		text-align: center;
-		width: 25%;
-		padding: 3px;
-		background-color: #0b0b0b;
-		color: white;
-		font-size: 1.2em;
-		letter-spacing: 2px;
-		font-weight: 600px;
-	}
-	.alecamp {
-		position: fixed;
-		left: 0;
-		top: 0;
-		a:hover {
-		background-color: black;
-		}
-	}
+	top: 0;
+	height: 40px;
+	background-color: #F6F6F6;
+	// border-bottom: 2px solid black;
+	z-index: 1000;
+
 	.portafolio {
 		position: fixed;
-		left: 25%;
-		top: 0;
+		left: 170px;
+		top: 7px;
+		a {
+			font-size: 1.5em;
+			display: block;
+			padding-bottom: 9px;
+		}
 		a:hover {
-			background-color: #ff5252;
+			color: blue;
 		}
 	}
-	.pricing {
-		a:hover {
-			background-color: red;
-		}
-		position: fixed;
-		left: 50%;
-		top: 0;
-	}
-	.contact {
-		a:hover {
-			background-color: magenta;
-		}
-		position: fixed;
-		right: 0;
-		top: 0;
-
-	}
+	// .graphic {
+	// 	position: fixed;
+	// 	left: 256px;
+	// 	top: 9px;
+	// 	a {
+	// 		font-size: 1.3em;
+	// 		display: block;
+	// 		padding-bottom: 9px;
+	// 	}
+	// 	a:hover {
+	// 		color: blue;
+	// 	}
+	// }
+	// .contact {
+	// 	position: fixed;
+	// 	left: 380px;
+	// 	top: 9px;
+	// 	a {
+	// 		font-size: 1.3em;
+	// 		display: block;
+	// 		padding-bottom: 9px;
+	// 	}
+	// 	a:hover {
+	// 		color: blue;
+	// 	}
+	// }
+	// .dash {
+	// 	position: absolute;
+	// 	left: 188px;
+	// 	top: 8px;
+	// 	h2 {
+	// 		font-size: 1.8em;
+	// 	}
+	// }
 }

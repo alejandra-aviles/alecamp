@@ -1,0 +1,79 @@
+.banner {
+	padding-top: 120px;
+	height: 100vh;
+	width: 90%;
+	font-family: 'Vollkorn', serif;
+	.hi {
+		color: red;
+		font-size: 2em;
+		line-height: 45px;
+	}
+	h1 {
+		font-size: 2.9em;
+		letter-spacing: 0.5px;
+		padding-bottom: 40px;
+		line-height: 50px;
+
+	}
+	h2 {
+		font-size: 1.3em;
+		width: 70%;
+		padding-bottom: 40px;
+	}
+	em {
+		text-shadow: 2px 1px #ffeb59;
+	}
+	.call-to-action{
+		a {
+			font-family: arial;
+			font-size: 1em;
+			color: blue;
+			background-color: white;
+			padding: 5px 10px;
+			border-radius: 10px;
+			font-weight: 600;
+			box-shadow: 3px 13px 30px -10px rgba(0,0,0,0.4);
+			float: right;
+			position: absolute;
+			z-index: 900;
+			bottom: 50px;
+			-moz-box-shadow:inset 0px 2px 0px 0px #ffffff;
+			-webkit-box-shadow:inset 0px 2px 0px 0px #ffffff;
+			box-shadow:inset 0px 2px 0px 0px #ffffff;
+			text-indent:0;
+			border:2px solid blue;
+			text-decoration:none;
+			text-align:center;
+			text-shadow:1px 1px 0px #ffffff;
+			display: inline-block;
+			clear: both;
+		}
+		a:hover {
+			color: red;
+			border: 2px solid red;
+		}
+	}
+	.down-arrow {
+		transform: rotate(90deg);
+		float: right;
+		position: absolute;
+		z-index: 900;
+		bottom: 30px;
+		h6 {
+			display: inline-block;
+			font-size: 1.2em;
+		}
+		h3 {
+			display: inline-block;
+			font-size: 5em;
+			color: #0000ae;
+		}
+		a {
+			display: inline-block;
+		}
+		a:hover {
+			color: blue;
+			text-shadow: 15px 0px red;
+		}
+	}
+}

@@ -9,21 +9,34 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <link rel="shortcut icon" href="images/favicon.ico" >
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i" rel="stylesheet">
     <script src="https://use.typekit.net/wow4nut.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <%= stylesheet_link_tag "screen" %>
     <body class="<%= page_classes %> <%= current_page.data.section %>">
         <div id="main">
-<!--           <div class="line"></div> -->
-<!--             <div class="logo">
-                <a href="/"><h1>Ale<em>camp</em></h1></a>
-            </div> -->
           <div class="nav">
-            <a class="alecamp" id="alecamp" href="/">Alecamp</a>
-            <a class="portafolio" id="portafolio" href="/">Portafolio</a>
-            <a class="pricing" id="pricing" href="/pricing">Pricing</a>
-            <a class="contact" id="contact" href="/contact">Contact</a>
+            <div class="logo">
+                <a href="/"><h1>Ale<em>camp</em></h1></a>
+            </div>
+<!--             <div class="portafolio" class="scroll-to continue fast-forward" >
+              <a href="/#projects">Portfolio</a>
+            </div> -->
+<!--             <div class="dash">
+              <h2>╱</h2>
+            </div> -->
+<!--             <div class="graphic">
+              <a href="/graphic">Infographics,</a>
+            </div>
+            <div class="contact">
+              <a href="/contact">Contact.</a>
+            </div> -->
           </div>
+          <div class="contact">
+            <h6>Contact me:</h6>
+            <a href="mailto:alejandra@alecamp.com">alejandra@alecamp.com</a>
+          </div>
+
           <div class="container">
             <%= yield_content :fullpage %>
             <%= yield %>
