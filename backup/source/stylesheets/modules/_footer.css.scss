@@ -1,0 +1,42 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1001;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    // mix-blend-mode: difference;
+    visibility: hidden;
+	// mix-blend-mode: overlay;
+	// mix-blend-mode: darken;
+	// mix-blend-mode: lighten;
+	// mix-blend-mode: color-dodge;
+	// mix-blend-mode: color-burn;
+	// mix-blend-mode: hard-light;
+	// mix-blend-mode: soft-light;
+	// mix-blend-mode: difference;
+	// mix-blend-mode: exclusion;
+	// mix-blend-mode: hue;
+	// mix-blend-mode: saturation;
+	// mix-blend-mode: color;
+	// mix-blend-mode: luminosity;
+
+
+
+	.title {
+		h1 {
+			text-align: center;
+			font-size: 1.4em;
+			font-weight: 600;
+			letter-spacing: 0.5px;
+			line-height: 14px;
+			font-family: arial;
+		}
+		a:hover {
+			color: blue;
+			text-decoration: underline;
+		}	
+	}
+	.info {
+	}
+}

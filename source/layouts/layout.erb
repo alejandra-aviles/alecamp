@@ -16,31 +16,16 @@
     <body class="<%= page_classes %> <%= current_page.data.section %>">
         <div id="main">
           <div class="nav">
-            <div class="logo">
-                <a href="/"><h1>Ale<em>camp</em></h1></a>
+            <div class="container">
+                <span class="logo-nav"><a href="/">Alecamp.</a></span>
+                <a id="portfolio-page" href="/portfolio-page">Portfolio</a>
+                <a id="cv" href="/cv">Experience</a>
+               <!--  <a id="pricing" href="/pricing">Pricing</a> -->
+                <a id="contact" href="/contact">Contact</a>
             </div>
-<!--             <div class="portafolio" class="scroll-to continue fast-forward" >
-              <a href="/#projects">Portfolio</a>
-            </div> -->
-<!--             <div class="dash">
-              <h2>╱</h2>
-            </div> -->
-<!--             <div class="graphic">
-              <a href="/graphic">Infographics,</a>
-            </div>
-            <div class="contact">
-              <a href="/contact">Contact.</a>
-            </div> -->
           </div>
-          <div class="contact">
-            <h6>Contact me:</h6>
-            <a href="mailto:alejandra@alecamp.com">alejandra@alecamp.com</a>
-          </div>
-
-          <div class="container">
             <%= yield_content :fullpage %>
             <%= yield %>
-          </div>
         </div>
       <%= javascript_include_tag  "application" %>  
     </body>

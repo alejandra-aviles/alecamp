@@ -9,22 +9,25 @@ for(var i = 0; i < elements.length; i++) {
       element: element,
       handler: function(direction) {
         if (direction === 'down') {
+          console.log('triggered down');
           update(element);
         }
       },
       offset: function() {
-        return window.innerHeight / 2;
+        console.log('down', Waypoint.viewportHeight());
+        return Waypoint.viewportHeight() - 1;
       }
     });
     new Waypoint({
       element: element,
       handler: function(direction) {
         if (direction === 'up') {
+          console.log('triggered up');
           update(element);
         }
       },
       offset: function() {
-        return -this.element.clientHeight + (window.innerHeight / 2);
+        return -element.clientHeight + Waypoint.viewportHeight();
       }
     });    
   })(elements[i]);
@@ -46,3 +49,9 @@ function updateFooter(name, url) {
 function updateInfo(info) {
   document.querySelector(".info h6").innerHTML = info;
 }
+
+document.addEventListener('scroll', function(e) {
+  if (window.scrollY === 0) {
+    updateFooter("", "");
+  }
+});

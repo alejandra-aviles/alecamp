@@ -1,57 +1,34 @@
 .nav {
-	position: fixed;
 	width: 100%;
+	position: fixed;
 	top: 0;
-	height: 40px;
-	background-color: #F6F6F6;
-	// border-bottom: 2px solid black;
+	background-color: white;
 	z-index: 1000;
-
-	.portafolio {
-		position: fixed;
-		left: 170px;
-		top: 7px;
+	border-top: 4px solid #fd3232; 
+	a {
+		font-size: 1.7em;
+		letter-spacing: 0.2px;
+		display: inline-block;
+		font-family: 'Vollkorn', serif;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-bottom: none;
+		text-decoration: none;
+		color: black;
+	}
+	a:hover {
+		background-color: #ffeb59;
+		color: black;
+	}
+	.logo-nav {
 		a {
-			font-size: 1.5em;
-			display: block;
-			padding-bottom: 9px;
+			color: black;
+			padding-left: 0;
 		}
 		a:hover {
-			color: blue;
+			background-color: white;
 		}
 	}
-	// .graphic {
-	// 	position: fixed;
-	// 	left: 256px;
-	// 	top: 9px;
-	// 	a {
-	// 		font-size: 1.3em;
-	// 		display: block;
-	// 		padding-bottom: 9px;
-	// 	}
-	// 	a:hover {
-	// 		color: blue;
-	// 	}
-	// }
-	// .contact {
-	// 	position: fixed;
-	// 	left: 380px;
-	// 	top: 9px;
-	// 	a {
-	// 		font-size: 1.3em;
-	// 		display: block;
-	// 		padding-bottom: 9px;
-	// 	}
-	// 	a:hover {
-	// 		color: blue;
-	// 	}
-	// }
-	// .dash {
-	// 	position: absolute;
-	// 	left: 188px;
-	// 	top: 8px;
-	// 	h2 {
-	// 		font-size: 1.8em;
-	// 	}
-	// }
 }

@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('.slider-wrapper').each(function(index, sliderWrapperEl){
 		var sliderWrapperEl = $(sliderWrapperEl);
-		var sliderEl = $('.slider', sliderEl);
+		var sliderEl = $('.slider', sliderWrapperEl);
 		var sliderId = sliderEl.attr("id");
 		var sliderControlsEl = $(".slider-controls[data-slider='" + sliderId + "']");
 
@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 		var sliderIndex = 0;
 		var sliderTotal = slides.length;
-		console.log(sliderIndexesEl, sliderTotal);
+		console.log(sliderId, sliderIndexesEl, sliderTotal);
 		var isTransitioning = false;
 
 		sliderControlsEl.find("[data-slider-action='next']").click(function(e){ 
@@ -73,7 +73,6 @@ $(document).ready(function(){
 		}
 
 		function previous(e){
-			console.log('previous');
 			if(!isTransitioning && hasPrevious()) {
 				var previous = sliderIndex;
 				decreaseIndex();

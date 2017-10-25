@@ -1,0 +1,43 @@
+.cv-cv {
+	h1 {
+		font-family: 'Vollkorn', serif;
+		font-size: 1.8em;
+		padding-bottom: 5px;
+	}
+	h2 {
+		font-weight: 800;
+		font-size: 1.4em;
+	}
+	h3 {
+		font-size: 1.2em;
+	}
+	h4 {
+		// font-family: arial;
+		font-size: 0.9em;
+		letter-spacing: 0.3px;
+	}
+	p {
+		font-size: 1.2em;
+		padding-bottom: 10px;
+	}
+
+	a {
+		display: block;
+		font-size: 1.1em;
+	}
+	a:hover {
+		text-shadow: 2px 2px #ffeb59;
+	}
+	.list {
+		padding-bottom: 10px;
+	}
+	span {
+		font-size: 0.7em;
+		letter-spacing: 0.5px;
+		padding-right: 5px;
+		a:hover {
+			text-shadow: white !important;
+		}
+	}
+
+}

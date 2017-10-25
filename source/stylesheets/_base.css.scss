@@ -1,30 +1,25 @@
 h1 {
-	font-family: 'Vollkorn', serif;
-	font-size: 5em;
 }
-
 h2 {
+}
+h3{
 
 }
-
-h3 {
-}
-
 h4 {
 }
-
 h5 {
 }
 
 h6 {
-	font-size: 0.8em;
-	line-height: 20px;
-	letter-spacing: 0.2px;
 }
 
 p {
-	font-size: 1.2em;
+
 }
+em {
+
+}
+
 @media (min-width: 800px) {
   p {
     font-size: 2em;
@@ -32,6 +27,3 @@ p {
 }
 
 
-em {
-
-}

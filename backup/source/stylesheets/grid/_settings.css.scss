@@ -1,0 +1,25 @@
+@import 'gridle/gridle';
+
+@include gridle_setup( (
+	context: 12,
+	gutter-width: 12px,
+	classes-prefix: "cr-"
+) );
+
+@include gridle_register_state( mobile, (
+	max-width: 900px,
+	gutter-width: 30px
+) );
+
+@include gridle_register_state( tablet, (
+	min-width: 800px,
+	max-width: 900px,
+	gutter-width: 30px
+));
+
+@include gridle_register_state( laptop, (
+	min-width: 900px,
+	max-width: 1000px,
+	gutter-width: 30px
+));
+

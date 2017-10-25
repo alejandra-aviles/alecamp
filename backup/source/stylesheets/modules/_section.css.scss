@@ -1,0 +1,9 @@
+section {
+	@include group;
+	max-width: 1300px;
+	section {
+		padding-bottom: 30px;
+	}
+}
+
+

@@ -2,5 +2,6 @@ jQuery(".scroll-to").click(function(e){
 	e.preventDefault();
 	var element = this;
 	var targetHref = $(element).attr("href");
-	jQuery("body").animate({ scrollTop: $(targetHref).offset().top }, 500, 'swing');
+	var navHeight = $('.nav').height();
+	jQuery("body").animate({ scrollTop: $(targetHref).offset().top - navHeight }, 500, 'swing');
 });

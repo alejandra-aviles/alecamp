@@ -3,30 +3,33 @@
 }
 
 html {
-	background-color: #F6F6F6;
+	background-color: white;
 }
 
 body {
 	font-size: 16px;
-
-	font-family: arial;
-
+	font-family: 'Vollkorn', serif;
 	::selection { background-color: #ffeb59; color:red; }
-	img {
-		width: 100%;
-		margin-bottom: 160px;
-		max-width: 924px;
-	}
 }
 
 #main { 
 	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
+	padding-bottom: 200px;
+	padding-top: 100px;
 }
-
 .container {
 	@include group;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	position: relative;
+}
+
+img {
+
+	// border-radius: 4px;
+	// border: 1px solid #e8e8e8;
+	// box-shadow: 3px 13px 74px -10px rgba(0,0,0,0.3);
 }
 
 a {
@@ -35,33 +38,33 @@ a {
 }
 
 a:hover {
-	cursor: pointer;
-	color: blue;
+	text-shadow: white;
 }
 
-img {
-	border-radius: 4px;
-	border: 1px solid #e8e8e8;
-	box-shadow: 3px 13px 74px -10px rgba(0,0,0,0.2);
-}
 
 body.index {
-	#portafolio {
-		background-color: #F6F6F6;
-		color: black;
+	#index {
+		text-shadow: 1px 1px #ffeb59;
+	}
+}
+body.portfolio-page {
+	#portfolio-page {
+		text-shadow: 1px 1px #ffeb59;
+	}
+}
+body.cv {
+	#cv {
+		text-shadow: 1px 1px #ffeb59;
 	}
 }
 
 body.pricing {
 	#pricing {
-		background-color: #F6F6F6;
-		color: black;
+		text-shadow: 1px 1px #ffeb59;
 	}
 }
-
 body.contact {
 	#contact {
-		background-color: #F6F6F6;
-		color: black;
+		text-shadow: 1px 1px #ffeb59;
 	}
 }
