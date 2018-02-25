@@ -18,14 +18,19 @@
           <div class="nav">
             <div class="container">
                 <span class="logo-nav"><a href="/">Alecamp.</a></span>
-                <a id="portfolio-page" href="/portfolio-page">Portfolio</a>
-                <a id="cv" href="/cv">Experience</a>
+                ⌇
+                <a id="projects-page" href="/projects-page">Projects</a>
+                ⌇
+                <a id="experience" href="/experience">Experience</a>
+                ⌇
                <!--  <a id="pricing" href="/pricing">Pricing</a> -->
                 <a id="contact" href="/contact">Contact</a>
             </div>
           </div>
+        <div class="container">
             <%= yield_content :fullpage %>
             <%= yield %>
+        </div>
         </div>
       <%= javascript_include_tag  "application" %>  
     </body>

@@ -21,17 +21,15 @@ body {
 	@include group;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
 	max-width: 1000px;
 	position: relative;
 }
 
 img {
-
-	// border-radius: 4px;
-	// border: 1px solid #e8e8e8;
-	// box-shadow: 3px 13px 74px -10px rgba(0,0,0,0.3);
+	border-radius: 5px;
 }
-
 a {
 	text-decoration: none;
 	color: black;
@@ -47,13 +45,13 @@ body.index {
 		text-shadow: 1px 1px #ffeb59;
 	}
 }
-body.portfolio-page {
-	#portfolio-page {
+body.projects-page {
+	#projects-page {
 		text-shadow: 1px 1px #ffeb59;
 	}
 }
-body.cv {
-	#cv {
+body.experience {
+	#experience {
 		text-shadow: 1px 1px #ffeb59;
 	}
 }

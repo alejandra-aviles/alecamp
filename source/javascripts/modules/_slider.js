@@ -42,8 +42,14 @@ $(document).ready(function(){
 		});
 
 		sliderEl.mousemove(function (event) {
-			var cursor = preferNext(event) ? 'e-resize' : 'w-resize';
-			$(this).css('cursor', cursor);
+			if (preferNext(event)) {
+				$(this).removeClass("slider-point-previous");
+				$(this).addClass("slider-point-next");
+			}
+			else {
+				$(this).removeClass("slider-point-next");
+				$(this).addClass("slider-point-previous");	
+			}
 		});
 
 		function increaseIndex(){
@@ -94,11 +100,11 @@ $(document).ready(function(){
 		}
 
 		function hide(index, callback){
-			return slides[index].fadeOut(200, callback);
+			return slides[index].fadeOut(0, callback);
 		}
 
 		function show(index, callback){
-			return slides[index].fadeIn(200, callback);
+			return slides[index].fadeIn(0, callback);
 		}
 
 		slides[0].show();

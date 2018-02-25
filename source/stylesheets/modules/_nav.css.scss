@@ -4,26 +4,28 @@
 	top: 0;
 	background-color: white;
 	z-index: 1000;
-	border-top: 4px solid #fd3232; 
+	// border-top: 4px solid red; 
 	a {
-		font-size: 1.7em;
-		letter-spacing: 0.2px;
 		display: inline-block;
+		font-size: 1.2em;
+		letter-spacing: 0.2px;
 		font-family: 'Vollkorn', serif;
 		padding-top: 10px;
 		padding-bottom: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-left: 25px;
+		padding-right: 25px;
 		border-bottom: none;
 		text-decoration: none;
 		color: black;
 	}
 	a:hover {
-		background-color: #ffeb59;
+		text-shadow: 2px 3px #ffeb59;
+		// background-color: #ffeb59;
 		color: black;
 	}
 	.logo-nav {
 		a {
+			text-shadow: none;
 			color: black;
 			padding-left: 0;
 		}
