@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="27px" viewBox="0 0 18 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>prev</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="prev" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.751924819">
+        <g id="Icons/Chevron-left" transform="translate(2.000000, 3.000000)" fill="#000000" stroke="#FFFFFF" stroke-width="0.5">
+            <path d="M9.4199331,20.7812748 C10.0898558,21.4648693 11.2109509,21.4648693 11.8945454,20.7812748 L12.9199373,19.7558829 C13.58986,19.0859603 13.58986,17.9648652 12.9199373,17.2812706 L6.27539811,10.6504033 L12.9199373,4.00586415 C13.58986,3.33594148 13.58986,2.21484639 12.9199373,1.53125183 L11.8945454,0.505859978 C11.2109509,-0.164062696 10.0898558,-0.164062696 9.4199331,0.505859978 L0.505859978,9.40626121 C-0.164062696,10.0898558 -0.164062696,11.2109509 0.505859978,11.8808735 L9.4199331,20.7812748 Z"></path>
+        </g>
+    </g>
+</svg>
